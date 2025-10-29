@@ -14,21 +14,21 @@ const testimonials: Testimonial[] = [
       "Every time I shoot with Crystal Frame Studios, it’s more than just a photoshoot it’s an experience that makes me feel confident, seen, and celebrated. From the very beginning, they create such a comfortable and welcoming atmosphere that being in front of the camera feels completely natural. Their creativity, attention to detail, and ability to capture genuine moments truly stand out. The final photos always exceed my expectations each shot perfectly reflects my personality and style. I couldn’t be happier with the results and would highly recommend Crystal Frame Studios to anyone looking for stunning, high quality photos.",
     name: "Jasmi Salagala",
     title: "Client",
-    avatar: "./../public/testimonials/jasmi.jpg",
+    avatar: "/testimonials/jasmi.jpg",
   },
   {
     quote:
       "I had the pleasure of experiencing their incredible work firsthand. The photos they captured at “Under the Moon” were absolutely stunning, with even the atmosphere adding a magical touch. Not only that, but the shots during the Ganesh Nimarjan were equally amazing, perfectly capturing every emotion. These pictures will surely bring a smile for years to come. Their editing skills are top-notch as well.",
     name: "Sathvik",
     title: "Client",
-    avatar: "./../public/image2.heic",
+    avatar: "/image2.heic",
   },
   {
     quote:
       "Good skills, good dedication. I love how the conversation between someone can go this smooth and deals well professionally too. I'm in for upcoming shoots as well. Definitely wanna see you on higher stages.",
     name: "likith.lens",
     title: "Photographer",
-    avatar: "./../public/testimonials/likith.jpg",
+    avatar: "/testimonials/likith.jpg",
   },
 ];
 
