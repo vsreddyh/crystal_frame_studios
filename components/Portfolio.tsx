@@ -2,19 +2,19 @@ import React, { forwardRef, useState, useMemo } from 'react';
 import type { PortfolioImage } from '../types';
 
 const allImages: PortfolioImage[] = [
-  { id: 10, src: './../images/image2.webp', category: 'Portraits', width: 640, height: 800 },
-  { id: 1, src: './../images/image1.heic',  category: 'Arts', width: 640, height: 800 },
-  { id: 2, src: './../images/image2.heic',  category: 'Portraits', width: 640, height: 640 },
-  { id: 3, src: './../images/image3.heic', category: 'Landscapes', width: 640, height: 427 },
-  { id: 4, src: './../images/image4.heic', category: 'Landscapes', width: 640, height: 800 },
-  { id: 5, src: './../images/image1.jpg', category: 'Events', width: 696.5, height: 870.5 },
-  { id: 6, src: './../images/image2.jpg', category: 'Events', width: 565, height: 706.2 },
-  { id: 7, src: './../images/image3.jpg', category: 'Events', width: 947.6, height: 758 },
-  { id: 8, src: './../images/image4.jpg', category: 'Events', width: 761, height: 507.3 },
-  { id: 9, src: './../images/image1.webp', category: 'Portraits', width: 640, height: 800 },
-  { id: 11, src: './../images/image5.jpg',  category: 'Landscapes', width: 947.4, height: 758 },
-  { id: 12, src: './../images/image6.jpg',  category: 'Landscapes', width: 947.4, height: 758 },
-  { id: 13, src: './../images/image7.jpg', category: 'Landscapes', width: 634, height: 507.2 },
+  { id: 10, src: './../public/image2.webp', category: 'Portraits', width: 640, height: 800 },
+  { id: 1, src: './../public/image1.heic',  category: 'Arts', width: 640, height: 800 },
+  { id: 2, src: './../public/image2.heic',  category: 'Portraits', width: 640, height: 640 },
+  { id: 3, src: './../public/image3.heic', category: 'Landscapes', width: 640, height: 427 },
+  { id: 4, src: './../public/image4.heic', category: 'Landscapes', width: 640, height: 800 },
+  { id: 5, src: './../public/image1.jpg', category: 'Events', width: 696.5, height: 870.5 },
+  { id: 6, src: './../public/image2.jpg', category: 'Events', width: 565, height: 706.2 },
+  { id: 7, src: './../public/image3.jpg', category: 'Events', width: 947.6, height: 758 },
+  { id: 8, src: './../public/image4.jpg', category: 'Events', width: 761, height: 507.3 },
+  { id: 9, src: './../public/image1.webp', category: 'Portraits', width: 640, height: 800 },
+  { id: 11, src: './../public/image5.jpg',  category: 'Landscapes', width: 947.4, height: 758 },
+  { id: 12, src: './../public/image6.jpg',  category: 'Landscapes', width: 947.4, height: 758 },
+  { id: 13, src: './../public/image7.jpg', category: 'Landscapes', width: 634, height: 507.2 },
 ];
 
 const categories = ['All', 'Portraits', 'Arts', 'Landscapes', 'Events'];
